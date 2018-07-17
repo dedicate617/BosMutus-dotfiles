@@ -1,0 +1,22 @@
+[user]
+	name = luyj
+	email = luyj@mindtekauto.com
+[core]
+	editor = vim
+[color]
+    diff = auto
+    status = true
+    branch = auto
+    interactive = auto
+    ui = auto
+    log = true
+[push]
+	default = simple
+[alias]
+    co = checkout
+    ci = commit
+    st = status -u
+    pl = pull --rebase
+    ps = push
+    br = branch
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
