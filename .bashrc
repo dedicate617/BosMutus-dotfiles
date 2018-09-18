@@ -119,4 +119,4 @@ if ! shopt -oq posix; then
 fi
 
 # ansible cowsay
-export ANSIBLE_NOCOWS = 1
+export ANSIBLE_NOCOWS=1
