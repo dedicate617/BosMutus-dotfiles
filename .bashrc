@@ -118,3 +118,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# ansible cowsay
+ANSIBLE_NOCOWS = 1
